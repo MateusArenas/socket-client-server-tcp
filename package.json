@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-modules": "^1.0.1"
+    "nginx": "0.0.0",
+    "node-modules": "^1.0.1",
+    "sha256": "^0.2.0"
   }
 }
