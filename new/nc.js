@@ -35,6 +35,6 @@
         console.log('Started listening on : ', server.address())
     }
     server = net.createServer(handleClient);
-    server.listen(4000,'fe80::e820:5867:2b10:ca7b%10',onListening)
+    server.listen(4000,'localhost',onListening)
     
 }());
