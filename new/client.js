@@ -4,7 +4,7 @@
     var net = require('net')
     ,socket
     ;//,client = '177.139.9.124 4000'
-    const conf = {port:4000 , host:'loocalhost'}
+    const conf = {port:53456 , host:'fe80::fda8:40b2:eb71:de14'}
     
 
 socket = net.connect(conf,()=>{
